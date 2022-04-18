@@ -1,0 +1,30 @@
+<app-navbar></app-navbar>
+<br><br><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <img class="profile" src="assets/profile.jpg" alt="">
+    </div>
+    <div class="col-md-4 bio" style="padding-right:10%;">
+      <h1>Emilia Blare</h1>
+      <p>Front end developer</p>
+      <p><i class="fa-solid fa-location-dot"></i>Orlando</p>
+      <a href="" style="color: #363062;" class="link">Twitter:https://twitter.com/john_doe</a>
+    </div>
+  </div>
+</div>
+<pre></pre>
+<!---github link-->
+<div class="githubLink">
+ <a href="" style="color: #000;text-decoration: none;"><i class="fa fa-link" aria-hidden="true"></i>https://github.com/johndoe</a>
+</div>
+<pre></pre>
+<!--repository List-->
+<app-repository></app-repository>
+<!--Navigation buttons-->
+<div class="navButton1"> 
+  <button class="btn btn-outline-secondary button"><i class="fa-solid fa-arrow-left-long"></i> Older</button>
+  <button class="btn btn-outline-primary navButton2 button">Newer <i class="fa-solid fa-arrow-right-long"></i></button>
+</div>
+<app-loader></app-loader>
+<router-outlet></router-outlet>
